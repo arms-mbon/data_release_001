@@ -18,7 +18,7 @@ These are the files that are combined into one DarwinCore Archive ZIP
 
 ## The sampling event data
 These are the files that contain the sampling event data. This is a subset of the entire set of [combined event data](https://github.com/arms-mbon/data_workspace/tree/main/QualityControlledData/Combined), and include: 
-* A CSV data file containing observatory information, with a metadata file that explains the entries therein
+* A CSV data file containing [observatory information](https://github.com/arms-mbon/data_release_001/blob/main/ObservatoryData_data_release_001.csv), with a metadata file that explains the entries therein
 * A CSV data file containing sampling event information, with a metadata file that explains the entries therein
 * A CSV data file containing raw sequence information, with a metadata file that explains the entries therein
 * A CSV data file containing images information, with a metadata file that explains the entries therein
