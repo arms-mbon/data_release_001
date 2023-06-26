@@ -1,16 +1,26 @@
 # data_release_001
 
-These are the data related to the publication XXX and as published in the EurOBIS DOI XXX (to be written once these references exist; give or refer to a list of stations and years that are covered)
+These are the data associated with the EurOBIS DOI XXX (still to be created): species identifications from ARMS-MBON data from 2018-2020 for the COI marker gene. These data include: 
+* The individual files that when combined, create the DwCA file that can be found in EurOBIS: a file of occurrences (species and event data), the DNA extension information (omics data), the EMOF (extra information that cannot otherwise be added to the other two files).
+* The data that are from the sampling events from which the material that was processed into COI was obtained
 
-The data here are a subset of the sampling events taken from [ARMS GitHub working space](https://github.com/arms-mbon/data_workspace). This data workspace is where data are harvested from the source locations (PlutoF and google sheets for the event data; PEMA google drive for the taxonomic data), quality controlled, and combined into user-friendly formats. 
+For more information on ARMS-MBON, see its [data landing page](data.arms-mbon.org) and references therein. 
 
-The sampling event metadata are taken from [our Combined event data](https://github.com/arms-mbon/data_workspace/tree/main/QualityControlledData/Combined): 
+For information on the bioinformatics workflow that was used (PEMA), and its input and output files: go to this [GitHub repo](https://github.com/arms-mbon/analysis_release_001)
+
+
+## EurOBIS DwCA file
+These are the files that are combined into one DarwinCore Archive ZIP
+* The [CSV containing the occurrences](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_Occurrence.csv) 
+* The [CSV containing the DNA data](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_DNAextension.csv) 
+* The [CSV containing the extended measurements or facts](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_EMOF.csv) 
+
+
+## The sampling event data
+These are the files that contain the sampling event data. This is a subset of the entire set of [combined event data](https://github.com/arms-mbon/data_workspace/tree/main/QualityControlledData/Combined), and include: 
 * A CSV data file containing observatory information, with a metadata file that explains the entries therein
 * A CSV data file containing sampling event information, with a metadata file that explains the entries therein
 * A CSV data file containing raw sequence information, with a metadata file that explains the entries therein
 * A CSV data file containing images information, with a metadata file that explains the entries therein
-
- 
-** links and explain rocrate **
 
 
