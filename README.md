@@ -21,6 +21,6 @@ These are the files that contain the sampling event data. This is a subset of th
 * A CSV data file containing [observatory information](https://github.com/arms-mbon/data_release_001/blob/main/ObservatoryData_data_release_001.csv), with a metadata file that explains the entries therein
 * A CSV data file containing sampling event information, with a metadata file that explains the entries therein
 * A CSV data file containing raw sequence information, with a metadata file that explains the entries therein
-* A CSV data file containing [images information](https://github.com/arms-mbon/data_release_001/blob/main/ImageData_data_release_001.csv) (note that there areo 1000s of rows in this spreadseheet), with a metadata file that explains the entries therein
+* A CSV data file containing [images information](https://github.com/arms-mbon/data_release_001/blob/main/ImageData_data_release_001.csv) (note that there are 1000s of rows in this spreadseheet), with a metadata file that explains the entries therein
 
 
