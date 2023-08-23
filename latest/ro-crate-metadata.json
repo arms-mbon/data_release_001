@@ -1,0 +1,86 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "label": "./",
+            "hasPart": [
+                {
+                    "@id": "./ARMS_COI_DNAextension.csv"
+                },
+                {
+                    "@id": "./ARMS_COI_EMOF.csv"
+                },
+                {
+                    "@id": "./ARMS_COI_Occurrence.csv"
+                },
+                {
+                    "@id": "./ImageData_data_release_001.csv"
+                },
+                {
+                    "@id": "./LICENSE"
+                },
+                {
+                    "@id": "./ObservatoryData_data_release_001.csv"
+                },
+                {
+                    "@id": "./OmicsData_data_release_001.csv"
+                },
+                {
+                    "@id": "./README.md"
+                }
+            ]
+        },
+        {
+            "@id": "./ARMS_COI_DNAextension.csv",
+            "@type": "File",
+            "label": "./ARMS_COI_DNAextension.csv"
+        },
+        {
+            "@id": "./ARMS_COI_EMOF.csv",
+            "@type": "File",
+            "label": "./ARMS_COI_EMOF.csv"
+        },
+        {
+            "@id": "./ARMS_COI_Occurrence.csv",
+            "@type": "File",
+            "label": "./ARMS_COI_Occurrence.csv"
+        },
+        {
+            "@id": "./ImageData_data_release_001.csv",
+            "@type": "File",
+            "label": "./ImageData_data_release_001.csv"
+        },
+        {
+            "@id": "./LICENSE",
+            "@type": "File",
+            "label": "./LICENSE"
+        },
+        {
+            "@id": "./ObservatoryData_data_release_001.csv",
+            "@type": "File",
+            "label": "./ObservatoryData_data_release_001.csv"
+        },
+        {
+            "@id": "./OmicsData_data_release_001.csv",
+            "@type": "File",
+            "label": "./OmicsData_data_release_001.csv"
+        },
+        {
+            "@id": "./README.md",
+            "@type": "File",
+            "label": "./README.md"
+        }
+    ]
+}
