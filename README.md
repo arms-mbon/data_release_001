@@ -1,6 +1,6 @@
 # data_release_001
 
-These are the data files associated with the EurOBIS DOI XXX (still to be created): species identifications from ARMS-MBON data from 2018-2020 for the COI marker gene. This includes: 
+These are the data files associated with the EurOBIS dataset (DOI XXX (still to be created)): species identifications from ARMS-MBON data from 2018-2020 for the COI marker gene. This includes: 
 * The individual files that when combined, create the DwCA file that can be found in EurOBIS: a file of occurrences (species and event data), the DNA extension information (omics data), the EMOF (extra information that cannot otherwise be added to the other two files).
 * The sampling event data related to the sampling events included in this EurOBIS dataset. These expand somewhat on the information included in the EurOBIS file
 
