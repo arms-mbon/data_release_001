@@ -1,0 +1,21 @@
+name: RoCrate Update
+on:
+  push:
+    branches:
+      - main  # Set a branch name to trigger deployment
+
+jobs:
+  update-rocrate:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      # Checkout this repo
+      - uses: actions/checkout@v3 
+      
+      # Build the preview.html file from the rocrate.json
+      - name: Rocrate fixer
+        uses: vliz-be-opsci/rocrate-fix@latest
+ 
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v4
