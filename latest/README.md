@@ -6,7 +6,7 @@ These are the data files associated with the EurOBIS dataset (DOI XXX (still to 
 
 The source files for the omics and taxonomic data that are included in the EurOBIS file can be found in [the analysis_release_001](https://github.com/arms-mbon/analysis_release_001) repository: the input and output files for the analysis done with PEMA can be found there.
 
-For more information on ARMS-MBON, see its [data landing page](data.arms-mbon.org) and references therein. 
+For more information on ARMS-MBON, see its [data landing page](data.arms-mbon.org) and references there in. 
 
 ## EurOBIS DwCA file
 These are the files that are combined into one DarwinCore Archive ZIP
