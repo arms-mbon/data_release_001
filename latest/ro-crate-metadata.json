@@ -12,608 +12,83 @@
             }
         },
         {
-            "@id": "./ooks/",
+            "@id": "./",
             "@type": "Dataset",
-            "label": "./ooks/",
+            "label": "./",
             "hasPart": [
                 {
-                    "@id": "./ooks/commit-msg.sample"
+                    "@id": "./config.yml"
                 },
                 {
-                    "@id": "./ooks/applypatch-msg.sample"
+                    "@id": "./SamplingeventData_release001.csv"
                 },
                 {
-                    "@id": "./ooks/pre-receive.sample"
+                    "@id": "./ObservatoryData_release001.csv"
                 },
                 {
-                    "@id": "./ooks/push-to-checkout.sample"
+                    "@id": "./ARMS_COI_EMOF.csv"
                 },
                 {
-                    "@id": "./ooks/sendemail-validate.sample"
+                    "@id": "./LICENSE"
                 },
                 {
-                    "@id": "./ooks/pre-merge-commit.sample"
+                    "@id": "./ARMS_COI_DNAextension.csv"
                 },
                 {
-                    "@id": "./ooks/pre-applypatch.sample"
+                    "@id": "./ARMS_COI_Occurrence.csv"
                 },
                 {
-                    "@id": "./ooks/pre-commit.sample"
+                    "@id": "./OmicsData_release001.csv"
                 },
                 {
-                    "@id": "./ooks/fsmonitor-watchman.sample"
-                },
-                {
-                    "@id": "./ooks/update.sample"
-                },
-                {
-                    "@id": "./ooks/pre-push.sample"
-                },
-                {
-                    "@id": "./ooks/prepare-commit-msg.sample"
-                },
-                {
-                    "@id": "./ooks/post-update.sample"
-                },
-                {
-                    "@id": "./ooks/pre-rebase.sample"
+                    "@id": "./ImageData_release001.csv"
                 }
             ]
         },
         {
-            "@id": "./eads/",
-            "@type": "Dataset",
-            "label": "./eads/",
-            "hasPart": [
-                {
-                    "@id": "./eads/main"
-                },
-                {
-                    "@id": "./eads/main"
-                }
-            ]
-        },
-        {
-            "@id": "./rigin/",
-            "@type": "Dataset",
-            "label": "./rigin/",
-            "hasPart": [
-                {
-                    "@id": "./rigin/main"
-                },
-                {
-                    "@id": "./rigin/main"
-                }
-            ]
-        },
-        {
-            "@id": "./ogs/",
-            "@type": "Dataset",
-            "label": "./ogs/",
-            "hasPart": [
-                {
-                    "@id": "./ogs/HEAD"
-                }
-            ]
-        },
-        {
-            "@id": "./nfo/",
-            "@type": "Dataset",
-            "label": "./nfo/",
-            "hasPart": [
-                {
-                    "@id": "./nfo/exclude"
-                }
-            ]
-        },
-        {
-            "@id": "./8/",
-            "@type": "Dataset",
-            "label": "./8/",
-            "hasPart": [
-                {
-                    "@id": "./8/79fb4081e251715bc9361ac1de6bf03d7a5c91"
-                },
-                {
-                    "@id": "./8/862b83a5c329a258dea71f3a31613755c135f7"
-                },
-                {
-                    "@id": "./8/a44f331af5a0cd56d8041b672d673959cc7fb0"
-                },
-                {
-                    "@id": "./8/445d639ad4ee34dcaf9f3067e2abe8efc2241d"
-                }
-            ]
-        },
-        {
-            "@id": "./6/",
-            "@type": "Dataset",
-            "label": "./6/",
-            "hasPart": [
-                {
-                    "@id": "./6/2b6c7d9aa6d66386dc62e2ee26911c69f32ca5"
-                },
-                {
-                    "@id": "./6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
-                }
-            ]
-        },
-        {
-            "@id": "./d/",
-            "@type": "Dataset",
-            "label": "./d/",
-            "hasPart": [
-                {
-                    "@id": "./d/f5ca5fa759a18c227242756ba2653bcbe79881"
-                }
-            ]
-        },
-        {
-            "@id": "./e/",
-            "@type": "Dataset",
-            "label": "./e/",
-            "hasPart": [
-                {
-                    "@id": "./e/27ed47f84f206d6a934aa1dafdcd68dec3444f"
-                }
-            ]
-        },
-        {
-            "@id": "./7/",
-            "@type": "Dataset",
-            "label": "./7/",
-            "hasPart": [
-                {
-                    "@id": "./7/bdd6ab41b9694cd2b788db1744d236ec0b1a67"
-                }
-            ]
-        },
-        {
-            "@id": "./b/",
-            "@type": "Dataset",
-            "label": "./b/",
-            "hasPart": [
-                {
-                    "@id": "./b/47f690fcc6f688cf34dc5484a312bcb52aa33b"
-                }
-            ]
-        },
-        {
-            "@id": "./2/",
-            "@type": "Dataset",
-            "label": "./2/",
-            "hasPart": [
-                {
-                    "@id": "./2/ca128e06760a62f51dcad13e299ed927ee3509"
-                },
-                {
-                    "@id": "./2/fab0cb3d88b27b8ae85624b5cddaf33cfb1da1"
-                }
-            ]
-        },
-        {
-            "@id": "./9/",
-            "@type": "Dataset",
-            "label": "./9/",
-            "hasPart": [
-                {
-                    "@id": "./9/e8b38f887382eff0e03ce69cbd2426ab82e760"
-                }
-            ]
-        },
-        {
-            "@id": "./4/",
-            "@type": "Dataset",
-            "label": "./4/",
-            "hasPart": [
-                {
-                    "@id": "./4/f9cff58b20fe56bac391d1cf42718f0dacd071"
-                },
-                {
-                    "@id": "./4/0ac8e14fe6b89322e49864ae5028ed6d118f09"
-                }
-            ]
-        },
-        {
-            "@id": "./1/",
-            "@type": "Dataset",
-            "label": "./1/",
-            "hasPart": [
-                {
-                    "@id": "./1/722078b99c6cf9efb9bef9d329d8c673ab7728"
-                }
-            ]
-        },
-        {
-            "@id": "./c/",
-            "@type": "Dataset",
-            "label": "./c/",
-            "hasPart": [
-                {
-                    "@id": "./c/9911990b960cf67ee78972449576756359aab0"
-                }
-            ]
-        },
-        {
-            "@id": "./3/",
-            "@type": "Dataset",
-            "label": "./3/",
-            "hasPart": [
-                {
-                    "@id": "./3/efe4e8bbf7678919af7b0259e13a18c6970f04"
-                }
-            ]
-        },
-        {
-            "@id": "./git/",
-            "@type": "Dataset",
-            "label": "./git/",
-            "hasPart": [
-                {
-                    "@id": "./git/description"
-                },
-                {
-                    "@id": "./git/HEAD"
-                },
-                {
-                    "@id": "./git/shallow"
-                },
-                {
-                    "@id": "./git/index"
-                },
-                {
-                    "@id": "./git/config"
-                },
-                {
-                    "@id": "./git/FETCH_HEAD"
-                }
-            ]
-        },
-        {
-            "@id": "./orkflows/",
-            "@type": "Dataset",
-            "label": "./orkflows/",
-            "hasPart": [
-                {
-                    "@id": "./orkflows/rocrate_to_pages.yml"
-                },
-                {
-                    "@id": "./orkflows/rocrate_update.yml"
-                }
-            ]
-        },
-        {
-            "@id": "./orkspace/",
-            "@type": "Dataset",
-            "label": "./orkspace/",
-            "hasPart": [
-                {
-                    "@id": "./orkspace/config.yml"
-                },
-                {
-                    "@id": "./orkspace/SamplingeventData_release001.csv"
-                },
-                {
-                    "@id": "./orkspace/ObservatoryData_release001.csv"
-                },
-                {
-                    "@id": "./orkspace/test.txt"
-                },
-                {
-                    "@id": "./orkspace/ARMS_COI_EMOF.csv"
-                },
-                {
-                    "@id": "./orkspace/LICENSE"
-                },
-                {
-                    "@id": "./orkspace/ARMS_COI_DNAextension.csv"
-                },
-                {
-                    "@id": "./orkspace/ARMS_COI_Occurrence.csv"
-                },
-                {
-                    "@id": "./orkspace/README.md"
-                },
-                {
-                    "@id": "./orkspace/OmicsData_release001.csv"
-                },
-                {
-                    "@id": "./orkspace/ImageData_release001.csv"
-                },
-                {
-                    "@id": "./orkspace/ro-crate-metadata.json"
-                }
-            ]
-        },
-        {
-            "@id": "./ooks/commit-msg.sample",
+            "@id": "./config.yml",
             "@type": "File",
-            "label": "./ooks/commit-msg.sample"
+            "label": "./config.yml"
         },
         {
-            "@id": "./ooks/applypatch-msg.sample",
+            "@id": "./SamplingeventData_release001.csv",
             "@type": "File",
-            "label": "./ooks/applypatch-msg.sample"
+            "label": "./SamplingeventData_release001.csv"
         },
         {
-            "@id": "./ooks/pre-receive.sample",
+            "@id": "./ObservatoryData_release001.csv",
             "@type": "File",
-            "label": "./ooks/pre-receive.sample"
+            "label": "./ObservatoryData_release001.csv"
         },
         {
-            "@id": "./ooks/push-to-checkout.sample",
+            "@id": "./ARMS_COI_EMOF.csv",
             "@type": "File",
-            "label": "./ooks/push-to-checkout.sample"
+            "label": "./ARMS_COI_EMOF.csv"
         },
         {
-            "@id": "./ooks/sendemail-validate.sample",
+            "@id": "./LICENSE",
             "@type": "File",
-            "label": "./ooks/sendemail-validate.sample"
+            "label": "./LICENSE"
         },
         {
-            "@id": "./ooks/pre-merge-commit.sample",
+            "@id": "./ARMS_COI_DNAextension.csv",
             "@type": "File",
-            "label": "./ooks/pre-merge-commit.sample"
+            "label": "./ARMS_COI_DNAextension.csv"
         },
         {
-            "@id": "./ooks/pre-applypatch.sample",
+            "@id": "./ARMS_COI_Occurrence.csv",
             "@type": "File",
-            "label": "./ooks/pre-applypatch.sample"
+            "label": "./ARMS_COI_Occurrence.csv"
         },
         {
-            "@id": "./ooks/pre-commit.sample",
+            "@id": "./OmicsData_release001.csv",
             "@type": "File",
-            "label": "./ooks/pre-commit.sample"
+            "label": "./OmicsData_release001.csv"
         },
         {
-            "@id": "./ooks/fsmonitor-watchman.sample",
+            "@id": "./ImageData_release001.csv",
             "@type": "File",
-            "label": "./ooks/fsmonitor-watchman.sample"
-        },
-        {
-            "@id": "./ooks/update.sample",
-            "@type": "File",
-            "label": "./ooks/update.sample"
-        },
-        {
-            "@id": "./ooks/pre-push.sample",
-            "@type": "File",
-            "label": "./ooks/pre-push.sample"
-        },
-        {
-            "@id": "./ooks/prepare-commit-msg.sample",
-            "@type": "File",
-            "label": "./ooks/prepare-commit-msg.sample"
-        },
-        {
-            "@id": "./ooks/post-update.sample",
-            "@type": "File",
-            "label": "./ooks/post-update.sample"
-        },
-        {
-            "@id": "./ooks/pre-rebase.sample",
-            "@type": "File",
-            "label": "./ooks/pre-rebase.sample"
-        },
-        {
-            "@id": "./eads/main",
-            "@type": "File",
-            "label": "./eads/main"
-        },
-        {
-            "@id": "./rigin/main",
-            "@type": "File",
-            "label": "./rigin/main"
-        },
-        {
-            "@id": "./ogs/HEAD",
-            "@type": "File",
-            "label": "./ogs/HEAD"
-        },
-        {
-            "@id": "./nfo/exclude",
-            "@type": "File",
-            "label": "./nfo/exclude"
-        },
-        {
-            "@id": "./8/79fb4081e251715bc9361ac1de6bf03d7a5c91",
-            "@type": "File",
-            "label": "./8/79fb4081e251715bc9361ac1de6bf03d7a5c91"
-        },
-        {
-            "@id": "./6/2b6c7d9aa6d66386dc62e2ee26911c69f32ca5",
-            "@type": "File",
-            "label": "./6/2b6c7d9aa6d66386dc62e2ee26911c69f32ca5"
-        },
-        {
-            "@id": "./8/862b83a5c329a258dea71f3a31613755c135f7",
-            "@type": "File",
-            "label": "./8/862b83a5c329a258dea71f3a31613755c135f7"
-        },
-        {
-            "@id": "./d/f5ca5fa759a18c227242756ba2653bcbe79881",
-            "@type": "File",
-            "label": "./d/f5ca5fa759a18c227242756ba2653bcbe79881"
-        },
-        {
-            "@id": "./8/a44f331af5a0cd56d8041b672d673959cc7fb0",
-            "@type": "File",
-            "label": "./8/a44f331af5a0cd56d8041b672d673959cc7fb0"
-        },
-        {
-            "@id": "./e/27ed47f84f206d6a934aa1dafdcd68dec3444f",
-            "@type": "File",
-            "label": "./e/27ed47f84f206d6a934aa1dafdcd68dec3444f"
-        },
-        {
-            "@id": "./7/bdd6ab41b9694cd2b788db1744d236ec0b1a67",
-            "@type": "File",
-            "label": "./7/bdd6ab41b9694cd2b788db1744d236ec0b1a67"
-        },
-        {
-            "@id": "./b/47f690fcc6f688cf34dc5484a312bcb52aa33b",
-            "@type": "File",
-            "label": "./b/47f690fcc6f688cf34dc5484a312bcb52aa33b"
-        },
-        {
-            "@id": "./2/ca128e06760a62f51dcad13e299ed927ee3509",
-            "@type": "File",
-            "label": "./2/ca128e06760a62f51dcad13e299ed927ee3509"
-        },
-        {
-            "@id": "./6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
-            "@type": "File",
-            "label": "./6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
-        },
-        {
-            "@id": "./9/e8b38f887382eff0e03ce69cbd2426ab82e760",
-            "@type": "File",
-            "label": "./9/e8b38f887382eff0e03ce69cbd2426ab82e760"
-        },
-        {
-            "@id": "./4/f9cff58b20fe56bac391d1cf42718f0dacd071",
-            "@type": "File",
-            "label": "./4/f9cff58b20fe56bac391d1cf42718f0dacd071"
-        },
-        {
-            "@id": "./1/722078b99c6cf9efb9bef9d329d8c673ab7728",
-            "@type": "File",
-            "label": "./1/722078b99c6cf9efb9bef9d329d8c673ab7728"
-        },
-        {
-            "@id": "./2/fab0cb3d88b27b8ae85624b5cddaf33cfb1da1",
-            "@type": "File",
-            "label": "./2/fab0cb3d88b27b8ae85624b5cddaf33cfb1da1"
-        },
-        {
-            "@id": "./c/9911990b960cf67ee78972449576756359aab0",
-            "@type": "File",
-            "label": "./c/9911990b960cf67ee78972449576756359aab0"
-        },
-        {
-            "@id": "./4/0ac8e14fe6b89322e49864ae5028ed6d118f09",
-            "@type": "File",
-            "label": "./4/0ac8e14fe6b89322e49864ae5028ed6d118f09"
-        },
-        {
-            "@id": "./3/efe4e8bbf7678919af7b0259e13a18c6970f04",
-            "@type": "File",
-            "label": "./3/efe4e8bbf7678919af7b0259e13a18c6970f04"
-        },
-        {
-            "@id": "./8/445d639ad4ee34dcaf9f3067e2abe8efc2241d",
-            "@type": "File",
-            "label": "./8/445d639ad4ee34dcaf9f3067e2abe8efc2241d"
-        },
-        {
-            "@id": "./eads/main",
-            "@type": "File",
-            "label": "./eads/main"
-        },
-        {
-            "@id": "./rigin/main",
-            "@type": "File",
-            "label": "./rigin/main"
-        },
-        {
-            "@id": "./git/description",
-            "@type": "File",
-            "label": "./git/description"
-        },
-        {
-            "@id": "./git/HEAD",
-            "@type": "File",
-            "label": "./git/HEAD"
-        },
-        {
-            "@id": "./git/shallow",
-            "@type": "File",
-            "label": "./git/shallow"
-        },
-        {
-            "@id": "./git/index",
-            "@type": "File",
-            "label": "./git/index"
-        },
-        {
-            "@id": "./git/config",
-            "@type": "File",
-            "label": "./git/config"
-        },
-        {
-            "@id": "./git/FETCH_HEAD",
-            "@type": "File",
-            "label": "./git/FETCH_HEAD"
-        },
-        {
-            "@id": "./orkflows/rocrate_to_pages.yml",
-            "@type": "File",
-            "label": "./orkflows/rocrate_to_pages.yml"
-        },
-        {
-            "@id": "./orkflows/rocrate_update.yml",
-            "@type": "File",
-            "label": "./orkflows/rocrate_update.yml"
-        },
-        {
-            "@id": "./orkspace/config.yml",
-            "@type": "File",
-            "label": "./orkspace/config.yml"
-        },
-        {
-            "@id": "./orkspace/SamplingeventData_release001.csv",
-            "@type": "File",
-            "label": "./orkspace/SamplingeventData_release001.csv"
-        },
-        {
-            "@id": "./orkspace/ObservatoryData_release001.csv",
-            "@type": "File",
-            "label": "./orkspace/ObservatoryData_release001.csv"
-        },
-        {
-            "@id": "./orkspace/test.txt",
-            "@type": "File",
-            "label": "./orkspace/test.txt"
-        },
-        {
-            "@id": "./orkspace/ARMS_COI_EMOF.csv",
-            "@type": "File",
-            "label": "./orkspace/ARMS_COI_EMOF.csv"
-        },
-        {
-            "@id": "./orkspace/LICENSE",
-            "@type": "File",
-            "label": "./orkspace/LICENSE"
-        },
-        {
-            "@id": "./orkspace/ARMS_COI_DNAextension.csv",
-            "@type": "File",
-            "label": "./orkspace/ARMS_COI_DNAextension.csv"
-        },
-        {
-            "@id": "./orkspace/ARMS_COI_Occurrence.csv",
-            "@type": "File",
-            "label": "./orkspace/ARMS_COI_Occurrence.csv"
-        },
-        {
-            "@id": "./orkspace/README.md",
-            "@type": "File",
-            "label": "./orkspace/README.md"
-        },
-        {
-            "@id": "./orkspace/OmicsData_release001.csv",
-            "@type": "File",
-            "label": "./orkspace/OmicsData_release001.csv"
-        },
-        {
-            "@id": "./orkspace/ImageData_release001.csv",
-            "@type": "File",
-            "label": "./orkspace/ImageData_release001.csv"
-        },
-        {
-            "@id": "./orkspace/ro-crate-metadata.json",
-            "@type": "File",
-            "label": "./orkspace/ro-crate-metadata.json"
+            "label": "./ImageData_release001.csv"
         }
     ]
 }
