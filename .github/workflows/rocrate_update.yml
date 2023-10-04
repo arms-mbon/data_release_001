@@ -16,6 +16,8 @@ jobs:
       # Build the preview.html file from the rocrate.json
       - name: Rocrate fixer
         uses: vliz-be-opsci/rocrate-fix@latest
+        with:
+          extra_metadata: extra_metadata.json
  
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v4
