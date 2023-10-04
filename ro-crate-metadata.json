@@ -43,6 +43,56 @@
                 {
                     "@id": "./ImageData_release001.csv"
                 }
+            ],
+            "wasAccosiatedWith": [
+                {
+                    "@id": "_:MatthiasObst"
+                },
+                {
+                    "@id": "_:KatrinaExter"
+                },
+                {
+                    "@id": "_:ChristinaPavloudi"
+                }
+            ],
+            "creator": [
+                {
+                    "@id": "_:MatthiasObst"
+                },
+                {
+                    "@id": "_:KatrinaExter"
+                },
+                {
+                    "@id": "_:ChristinaPavloudi"
+                },
+                {
+                    "@id": "_:ARMSProject"
+                },
+                {
+                    "@id": "_:AssemblePlus"
+                }
+            ],
+            "publisher": {
+                "@id": "_:VLIZ"
+            },
+            "title": "data_release_001",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "ContactPoint": [
+                "opsci@vliz.be",
+                "matthias.obst@marine.gu.se"
+            ],
+            "description": "The documentation for the ARMS-MBON project: Handbook, SOPs, templates, etc",
+            "keywords": [
+                "https://dwc.tdwg.org/terms/#materialsample",
+                "https://schema.org/Dataset",
+                "ARMS",
+                "MBON",
+                "https://vocabularyserver.com/asfa/index.php?tema=2185&/Biodiversity",
+                "https://vocabularyserver.com/asfa/index.php?tema=2091&/benthic-communities",
+                "https://vocabularyserver.com/asfa/index.php?tema=3505&/Long-term-changes",
+                "https://vocabularyserver.com/asfa/index.php?tema=2146&/biology",
+                "https://vocabularyserver.com/asfa/index.php?tema=1150&/marine-environment",
+                "https://vocabularyserver.com/asfa/index.php?tema=2365&/genetics"
             ]
         },
         {
@@ -58,12 +108,23 @@
         {
             "@id": "./ObservatoryData_release001.csv",
             "@type": "File",
-            "label": "./ObservatoryData_release001.csv"
+            "label": "./ObservatoryData_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryData.csv"
+            ],
+            "description": "Contains the Observatory metadata associated with the sampling events in this dataset"
         },
         {
             "@id": "./ARMS_COI_EMOF.csv",
             "@type": "File",
-            "label": "./ARMS_COI_EMOF.csv"
+            "label": "./ARMS_COI_EMOF.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The CSV containing the EMOF fields"
         },
         {
             "@id": "./LICENSE",
@@ -73,12 +134,24 @@
         {
             "@id": "./ARMS_COI_DNAextension.csv",
             "@type": "File",
-            "label": "./ARMS_COI_DNAextension.csv"
+            "label": "./ARMS_COI_DNAextension.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The CSV containing the DNA extension fields"
         },
         {
             "@id": "./ARMS_COI_Occurrence.csv",
             "@type": "File",
-            "label": "./ARMS_COI_Occurrence.csv"
+            "label": "./ARMS_COI_Occurrence.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The CSV containing the Occurrence core fields"
         },
         {
             "@id": "./OmicsData_release001.csv",
@@ -88,7 +161,12 @@
         {
             "@id": "./ImageData_release001.csv",
             "@type": "File",
-            "label": "./ImageData_release001.csv"
+            "label": "./ImageData_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ImageData.csv"
+            ],
+            "description": "Contains the links to all images and spreadsheets associated with the sampling events in this dataset"
         }
     ]
 }
