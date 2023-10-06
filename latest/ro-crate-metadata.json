@@ -167,39 +167,6 @@
                 "https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ImageData.csv"
             ],
             "description": "Contains the links to all images and spreadsheets associated with the sampling events in this dataset"
-        },
-        {
-            "@id": "_:MatthiasObst",
-            "@type": "Person",
-            "name": "Matthias Obst",
-            "email": "matthias.obst@marine.gu.se",
-            "identifier": "https://orcid.org/0000-0003-0264-9631"
-        },
-        {
-            "@id": "_:KatrinaExter",
-            "@type": "Person",
-            "name": "Katrina Exter",
-            "email": "katrina.exter@vliz.be",
-            "identifier": "https://orcid.org/0000-0002-5911-1536"
-        },
-        {
-            "@id": "_:ChristinaPavloudi",
-            "@type": "Person",
-            "name": "Christina Pavloudi",
-            "email": "cpavloud@hcmr.gr",
-            "identifier": "https://orcid.org/0000-0001-5106-6067"
-        },
-        {
-            "@id": "_:ARMSProject",
-            "@type": "Project",
-            "name": "ARMS-MBON",
-            "identifier": "https://arms-mbon.eu"
-        },
-        {
-            "@id": "_:AssemblePlus",
-            "@type": "Project",
-            "name": "ASSEMBLE Plus",
-            "identifier": "https://cordis.europa.eu/project/id/730984"
         }
     ]
 }
