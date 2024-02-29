@@ -56,7 +56,7 @@
                     "@id": "./ObservatoryMetadata_release001.csv"
                 }
             ],
-            "wasAccosiatedWith": [
+            "wasAssociatedWith": [
                 {
                     "@id": "_:MatthiasObst"
                 },
