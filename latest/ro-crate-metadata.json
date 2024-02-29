@@ -20,6 +20,9 @@
                     "@id": "./LICENSE"
                 },
                 {
+                    "@id": "./SamplingEventData_release001.csv"
+                },
+                {
                     "@id": "./ImageData_release001.csv"
                 },
                 {
@@ -53,7 +56,7 @@
                     "@id": "./ObservatoryMetadata_release001.csv"
                 }
             ],
-            "wasAccosiatedWith": [
+            "wasAssociatedWith": [
                 {
                     "@id": "_:MatthiasObst"
                 },
@@ -146,6 +149,11 @@
             "@id": "./LICENSE",
             "@type": "File",
             "label": "./LICENSE"
+        },
+        {
+            "@id": "./SamplingEventData_release001.csv",
+            "@type": "File",
+            "label": "./SamplingEventData_release001.csv"
         },
         {
             "@id": "./ImageData_release001.csv",
