@@ -20,6 +20,9 @@
                     "@id": "./LICENSE"
                 },
                 {
+                    "@id": "./SamplingEventData_release001.csv"
+                },
+                {
                     "@id": "./ImageData_release001.csv"
                 },
                 {
@@ -146,6 +149,11 @@
             "@id": "./LICENSE",
             "@type": "File",
             "label": "./LICENSE"
+        },
+        {
+            "@id": "./SamplingEventData_release001.csv",
+            "@type": "File",
+            "label": "./SamplingEventData_release001.csv"
         },
         {
             "@id": "./ImageData_release001.csv",
