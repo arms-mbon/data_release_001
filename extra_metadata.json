@@ -19,7 +19,7 @@
             "opsci@vliz.be",
             "matthias.obst@marine.gu.se"
         ],
-        "description":"The documentation for the ARMS-MBON project: Handbook, SOPs, templates, etc",
+        "description":"The first sampling event-data release for the ARMS-MBON dataset on the 18S, ITS, and COI, for the sampling events from 2018-2020.",
         "keywords":[
             "https://dwc.tdwg.org/terms/#materialsample",
             "https://schema.org/Dataset",
