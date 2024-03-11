@@ -25,4 +25,8 @@ These are the files that contain the sampling event data. This is a subset of th
 * A CSV data file containing [images metadata](https://github.com/arms-mbon/data_release_001/blob/main/ImageData_release001.csv), with an accompanying metadata file (note that there are 1000s of rows in this spreadsheet), with a metadata file that explains the entries therein. Images are currently stored in PlutoF and can be downloaded by accessing the links 
 in the "Download URL" column.
 
+Note that these files [in the combined data folder](https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined) may also be useful to you:
+*  A list of the ENA project, sample, and run accession numbers for all the ARMS-MBON data to date
+*  A list of the area/field and sample/technical replicates
+*  Additional sequencing demultiplexing metadata
 
