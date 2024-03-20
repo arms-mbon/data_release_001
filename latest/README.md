@@ -1,8 +1,8 @@
 # data_release_001
 
 <!--These are the data files associated with the first ARMS-MBON dataset submitted to EurOBIS ([DOI](https://doi.org/10.14284/620)): -->
-These are the data files to be submitted to EurOBIS: species identifications, sampling even metadata, image metadata for the COI, ITS, and 18S marker gene for the events between 2018 and 2020 (all events that started in 2018 and 2019). This includes: 
-* The individual files that when combined, create the DwCA file that can be found in EurOBIS: a file of occurrences (species and event data), the DNA extension information (omics data), the EMOF (extra information that cannot otherwise be added to the other two files).
+These are the data files to be submitted to EurOBIS: taxonomic occurrences from the COI, 18S, and ITS marker gene omics data, sampling event metadata, and image metadata for the events of ARMS-MBON's first sampling campaign (all ARMS deployed in 2018 and 2019 and retrieved between and 2018 and 2020). This includes: 
+* The individual files that when combined, create the DwCA file that can be found in EurOBIS: a file of occurrences (taxonomy and event data), the DNA extension information (omics data), the EMOF (extra information that cannot otherwise be added to the other two files).
 * The observatory, sampling event, omics and image data related to the sampling events included in this EurOBIS dataset. These expand somewhat on the information included in the EurOBIS file.
 
 The source files for the omics and taxonomic data that are included in the EurOBIS file can be found in [the analysis_release_001](https://github.com/arms-mbon/analysis_release_001) repository: the input and output files for the bioinformatics analysis done with PEMA can be found there.
