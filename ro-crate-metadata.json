@@ -268,7 +268,10 @@
         {
             "@id": "./demultiplexing_details_OmicsData_release001.csv",
             "@type": "File",
-            "label": "./demultiplexing_details_OmicsData_release001.csv"
+            "label": "./demultiplexing_details_OmicsData_release001.csv",
+            "fileFormat": "csv",
+            "description": "File containing some details of the demultiplexing of the sequences by PEMA",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./demultiplexing_details_OmicsData_release001.csv"
         },
         {
             "@id": "./config.yml",
