@@ -43,6 +43,11 @@
         "description":"The DNA extension for the COI data",
         "downloadURL":"https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_DNAextension.csv"
     },
+    "./demultiplexing_details_OmicsData_release001.csv":{
+        "fileFormat":"csv",
+        "description":"File containing some details of the demultiplexing of the sequences by PEMA",
+        "downloadURL":"https://data.arms-mbon.org/data_release_001/latest/#./demultiplexing_details_OmicsData_release001.csv"
+    },
     "./ARMS_COI_Occurrence.csv":{
         "fileFormat":"csv",
         "wasDerivedFrom":[
