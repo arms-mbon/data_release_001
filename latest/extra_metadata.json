@@ -302,7 +302,7 @@
                 "@type":"Place",
                 "geo":{
                     "@type":"GeoCoordinates",
-                        ""latitude":"59.86442",
+                        "latitude":"59.86442",
                         "longitude":"23.265084"
                 },
                 "geoCoveredBy":{
@@ -372,7 +372,7 @@
                         "longitude":"-4.1561"
                 },
                 "geoCoveredBy":{
-                    "URL":"http://marineregions.org/mrgid/24206"L
+                    "URL":"http://marineregions.org/mrgid/24206"
                 }
             },
             {
