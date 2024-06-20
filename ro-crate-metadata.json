@@ -94,7 +94,9 @@
             "license": "https://creativecommons.org/licenses/by/4.0/",
             "contactPoint": [
                 "opsci@vliz.be",
-                "matthias.obst@marine.gu.se"
+                {
+                    "@id": "_:MatthiasObst"
+                }
             ],
             "description": "The first sampling event-data release for the ARMS-MBON dataset for the 18S-, ITS-, and COI-derived occurrence, for the sampling events from 2018-2020.",
             "dct:relation": [
