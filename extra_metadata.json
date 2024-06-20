@@ -33,8 +33,10 @@
             "https://vocabularyserver.com/asfa/index.php?tema=1150&/marine-environment",
             "https://vocabularyserver.com/asfa/index.php?tema=2365&/genetics"
         ],
-        "startDate": "2018-07-01",
-        "endDate": "2020-12-11",
+        "temporal":{
+            "start":"2018-07-01",
+            "end":"2020-12-11"
+        },
         "spatialCoverage": [
             {
                 "@type":"Place",
