@@ -5,12 +5,12 @@ These are the data files to be submitted to EurOBIS: taxonomic occurrences from 
 * The individual files that when combined, create the DwCA file that can be found in EurOBIS: a file of occurrences (taxonomy and event data), the DNA extension information (omics data), the EMOF (extra information that cannot otherwise be added to the other two files).
 * The observatory, sampling event, omics and image data related to the sampling events included in this EurOBIS dataset. These expand somewhat on the information included in the EurOBIS file.
 
-The source files for the omics and taxonomic data that are included in the EurOBIS file can be found in [the analysis_release_001](https://github.com/arms-mbon/analysis_release_001) repository: the input and output files for the bioinformatics analysis done with PEMA can be found there.
+The source files for the omics and taxonomic data that are included in the EurOBIS file can be found in [the analysis_release_001](https://github.com/arms-mbon/analysis_release_001) repository: the input and output files for the bioinformatics analysis done with PEMA can be found there. Links to the PEMA pipeline can also be found there. The code that was used to reforumlate PEMA outputs and search various databases for associated information can be found in [code_release_001](https://github.com/arms-mbon/code_release_001). 
 
 For more information on ARMS-MBON, see its [data landing page](https://data.arms-mbon.org/) and references there in. 
 
 <!--
-## EurOBIS DwCA file
+## EurOBIS DwCA files 
 These are the files that are combined into one DarwinCore Archive ZIP
 * The [CSV containing the occurrences](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_Occurrence.csv) 
 * The [CSV containing the DNA data](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_DNAextension.csv) 
