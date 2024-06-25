@@ -571,6 +571,7 @@
     },
     "_point_45":{
         "@type":"Place",
+        "name":"point_45",
         "geo":{
             "@type":"GeoCoordinates",
                 "latitude":"58.875155",
