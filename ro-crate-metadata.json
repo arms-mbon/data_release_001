@@ -59,6 +59,9 @@
                     "@id": "./ARMS_COI_Occurrence.csv"
                 },
                 {
+                    "@id": "./temp.py"
+                },
+                {
                     "@id": "./ARMS_ITS_EMOF.csv"
                 },
                 {
@@ -472,6 +475,11 @@
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_Occurrence.csv"
         },
         {
+            "@id": "./temp.py",
+            "@type": "File",
+            "label": "./temp.py"
+        },
+        {
             "@id": "./ARMS_ITS_EMOF.csv",
             "@type": "File",
             "label": "./ARMS_ITS_EMOF.csv",
@@ -495,6 +503,848 @@
             "fileFormat": "csv",
             "description": "File containing some details of the demultiplexing of the sequences by PEMA",
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./demultiplexing_details_OmicsData_release001.csv"
+        },
+        {
+            "@id": "_:point_1",
+            "@type": "Place",
+            "label": "Point 1",
+            "geo": {
+                "@id": "_:point_1_geo1"
+            },
+            "geoCoveredBy": "http://marineregions.org/mrgid/26567"
+        },
+        {
+            "@id": "_:point_2",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_2_geo353"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_381"
+        },
+        {
+            "@id": "_:point_3",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_3_geo773"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_364"
+        },
+        {
+            "@id": "_:point_4",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_4_geo619"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_136"
+        },
+        {
+            "@id": "_:point_5",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_5_geo994"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_116"
+        },
+        {
+            "@id": "_:point_6",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_6_geo551"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_473"
+        },
+        {
+            "@id": "_:point_7",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_7_geo116"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_983"
+        },
+        {
+            "@id": "_:point_8",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_8_geo594"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_651"
+        },
+        {
+            "@id": "_:point_9",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_9_geo918"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_606"
+        },
+        {
+            "@id": "_:point_10",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_10_geo191"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_42"
+        },
+        {
+            "@id": "_:point_11",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_11_geo516"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_763"
+        },
+        {
+            "@id": "_:point_12",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_12_geo496"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_98"
+        },
+        {
+            "@id": "_:point_13",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_13_geo323"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/26567"
+            },
+            "label": "Point_176"
+        },
+        {
+            "@id": "_:point_14",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_14_geo32"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/27388"
+            },
+            "label": "Point_697"
+        },
+        {
+            "@id": "_:point_15",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_15_geo844"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/27388"
+            },
+            "label": "Point_756"
+        },
+        {
+            "@id": "_:point_16",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_16_geo74"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/27388"
+            },
+            "label": "Point_828"
+        },
+        {
+            "@id": "_:point_17",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_17_geo856"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/40806"
+            },
+            "label": "Point_481"
+        },
+        {
+            "@id": "_:point_18",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_18_geo40"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/40806"
+            },
+            "label": "Point_356"
+        },
+        {
+            "@id": "_:point_19",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_19_geo261"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/40806"
+            },
+            "label": "Point_23"
+        },
+        {
+            "@id": "_:point_20",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_20_geo551"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/17355"
+            },
+            "label": "Point_15"
+        },
+        {
+            "@id": "_:point_21",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_21_geo594"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/17355"
+            },
+            "label": "Point_160"
+        },
+        {
+            "@id": "_:point_22",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_22_geo880"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/17355"
+            },
+            "label": "Point_673"
+        },
+        {
+            "@id": "_:point_23",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_23_geo894"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/40020"
+            },
+            "label": "Point_719"
+        },
+        {
+            "@id": "_:point_24",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_24_geo347"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/27436"
+            },
+            "label": "Point_948"
+        },
+        {
+            "@id": "_:point_25",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_25_geo275"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/27436"
+            },
+            "label": "Point_253"
+        },
+        {
+            "@id": "_:point_26",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_26_geo335"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/27436"
+            },
+            "label": "Point_571"
+        },
+        {
+            "@id": "_:point_27",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_27_geo645"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/5216"
+            },
+            "label": "Point_491"
+        },
+        {
+            "@id": "_:point_28",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_28_geo51"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/17786"
+            },
+            "label": "Point_121"
+        },
+        {
+            "@id": "_:point_29",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_29_geo395"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/24206"
+            },
+            "label": "Point_762"
+        },
+        {
+            "@id": "_:point_30",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_30_geo373"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/24206"
+            },
+            "label": "Point_545"
+        },
+        {
+            "@id": "_:point_31",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_31_geo286"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/24206"
+            },
+            "label": "Point_367"
+        },
+        {
+            "@id": "_:point_32",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_32_geo468"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/24206"
+            },
+            "label": "Point_857"
+        },
+        {
+            "@id": "_:point_33",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_33_geo170"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/24206"
+            },
+            "label": "Point_147"
+        },
+        {
+            "@id": "_:point_34",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_34_geo219"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/48617"
+            },
+            "label": "Point_128"
+        },
+        {
+            "@id": "_:point_35",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_35_geo810"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/48617"
+            },
+            "label": "Point_391"
+        },
+        {
+            "@id": "_:point_36",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_36_geo665"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/4263"
+            },
+            "label": "Point_365"
+        },
+        {
+            "@id": "_:point_37",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_37_geo850"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/4263"
+            },
+            "label": "Point_426"
+        },
+        {
+            "@id": "_:point_38",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_38_geo73"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/18664"
+            },
+            "label": "Point_191"
+        },
+        {
+            "@id": "_:point_39",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_39_geo686"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/42425"
+            },
+            "label": "Point_880"
+        },
+        {
+            "@id": "_:point_40",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_40_geo187"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/42425"
+            },
+            "label": "Point_183"
+        },
+        {
+            "@id": "_:point_41",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_41_geo299"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/29088"
+            },
+            "label": "Point_539"
+        },
+        {
+            "@id": "_:point_42",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_42_geo351"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/29864"
+            },
+            "label": "Point_976"
+        },
+        {
+            "@id": "_:point_43",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_43_geo781"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/29864"
+            },
+            "label": "Point_478"
+        },
+        {
+            "@id": "_:point_44",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_44_geo308"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/29864"
+            },
+            "label": "Point_954"
+        },
+        {
+            "@id": "_:point_45",
+            "@type": "Place",
+            "name": "point_45",
+            "geo": {
+                "@id": "_:point_45_geo569"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/28676"
+            },
+            "label": "Point_176"
+        },
+        {
+            "@id": "_:point_46",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_46_geo726"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/28676"
+            },
+            "label": "Point_856"
+        },
+        {
+            "@id": "_:point_47",
+            "@type": "Place",
+            "geo": {
+                "@id": "_:point_47_geo68"
+            },
+            "geoCoveredBy": {
+                "URL": "http://marineregions.org/mrgid/28676"
+            },
+            "label": "Point_998"
+        },
+        {
+            "@id": "_:geo_1",
+            "label": "_:point_1_geo1"
+        },
+        {
+            "@id": "_:point_2_geo353",
+            "@type": "GeoCoordinates",
+            "latitude": "51.6533567",
+            "longitude": "2.79178508",
+            "label": "_:point_2_geo353"
+        },
+        {
+            "@id": "_:point_3_geo773",
+            "@type": "GeoCoordinates",
+            "latitude": "51.65264",
+            "longitude": "2.79369998",
+            "label": "_:point_3_geo773"
+        },
+        {
+            "@id": "_:point_4_geo619",
+            "@type": "GeoCoordinates",
+            "latitude": "51.65374944",
+            "longitude": "2.79602577",
+            "label": "_:point_4_geo619"
+        },
+        {
+            "@id": "_:point_5_geo994",
+            "@type": "GeoCoordinates",
+            "latitude": "51.64505",
+            "longitude": "2.793074",
+            "label": "_:point_5_geo994"
+        },
+        {
+            "@id": "_:point_6_geo551",
+            "@type": "GeoCoordinates",
+            "latitude": "51.364298",
+            "longitude": "3.20701",
+            "label": "_:point_6_geo551"
+        },
+        {
+            "@id": "_:point_7_geo116",
+            "@type": "GeoCoordinates",
+            "latitude": "51.362906",
+            "longitude": "3.183634",
+            "label": "_:point_7_geo116"
+        },
+        {
+            "@id": "_:point_8_geo594",
+            "@type": "GeoCoordinates",
+            "latitude": "51.66522",
+            "longitude": "2.82558",
+            "label": "_:point_8_geo594"
+        },
+        {
+            "@id": "_:point_9_geo918",
+            "@type": "GeoCoordinates",
+            "latitude": "51.68821",
+            "longitude": "2.84921",
+            "label": "_:point_9_geo918"
+        },
+        {
+            "@id": "_:point_10_geo191",
+            "@type": "GeoCoordinates",
+            "latitude": "51.64816667",
+            "longitude": "2.53583333",
+            "label": "_:point_10_geo191"
+        },
+        {
+            "@id": "_:point_11_geo516",
+            "@type": "GeoCoordinates",
+            "latitude": "51.579833",
+            "longitude": "2.9955",
+            "label": "_:point_11_geo516"
+        },
+        {
+            "@id": "_:point_12_geo496",
+            "@type": "GeoCoordinates",
+            "latitude": "51.11486388",
+            "longitude": "2.57857672",
+            "label": "_:point_12_geo496"
+        },
+        {
+            "@id": "_:point_13_geo323",
+            "@type": "GeoCoordinates",
+            "latitude": "51.11529044",
+            "longitude": "2.57995513",
+            "label": "_:point_13_geo323"
+        },
+        {
+            "@id": "_:point_14_geo32",
+            "@type": "GeoCoordinates",
+            "latitude": "57.25689",
+            "longitude": "11.14193",
+            "label": "_:point_14_geo32"
+        },
+        {
+            "@id": "_:point_15_geo844",
+            "@type": "GeoCoordinates",
+            "latitude": "57.25692",
+            "longitude": "11.14197",
+            "label": "_:point_15_geo844"
+        },
+        {
+            "@id": "_:point_16_geo74",
+            "@type": "GeoCoordinates",
+            "latitude": "57.25692",
+            "longitude": "11.14199",
+            "label": "_:point_16_geo74"
+        },
+        {
+            "@id": "_:point_17_geo856",
+            "@type": "GeoCoordinates",
+            "latitude": "56.90155",
+            "longitude": "9.05516667",
+            "label": "_:point_17_geo856"
+        },
+        {
+            "@id": "_:point_18_geo40",
+            "@type": "GeoCoordinates",
+            "latitude": "56.89985",
+            "longitude": "9.05663333",
+            "label": "_:point_18_geo40"
+        },
+        {
+            "@id": "_:point_19_geo261",
+            "@type": "GeoCoordinates",
+            "latitude": "56.90131667",
+            "longitude": "9.05733333",
+            "label": "_:point_19_geo261"
+        },
+        {
+            "@id": "_:point_20_geo551",
+            "@type": "GeoCoordinates",
+            "latitude": "43.338452",
+            "longitude": "-3.014833",
+            "label": "_:point_20_geo551"
+        },
+        {
+            "@id": "_:point_21_geo594",
+            "@type": "GeoCoordinates",
+            "latitude": "43.3385",
+            "longitude": "-3.01491",
+            "label": "_:point_21_geo594"
+        },
+        {
+            "@id": "_:point_22_geo880",
+            "@type": "GeoCoordinates",
+            "latitude": "43.33843",
+            "longitude": "-3.01483",
+            "label": "_:point_22_geo880"
+        },
+        {
+            "@id": "_:point_23_geo894",
+            "@type": "GeoCoordinates",
+            "latitude": "42.2284",
+            "longitude": "-8.7787",
+            "label": "_:point_23_geo894"
+        },
+        {
+            "@id": "_:point_24_geo347",
+            "@type": "GeoCoordinates",
+            "latitude": "59.841505",
+            "longitude": "23.248879",
+            "label": "_:point_24_geo347"
+        },
+        {
+            "@id": "_:point_25_geo275",
+            "@type": "GeoCoordinates",
+            "latitude": "59.86442",
+            "longitude": "23.265084",
+            "label": "_:point_25_geo275"
+        },
+        {
+            "@id": "_:point_26_geo335",
+            "@type": "GeoCoordinates",
+            "latitude": "59.81094",
+            "longitude": "23.206216",
+            "label": "_:point_26_geo335"
+        },
+        {
+            "@id": "_:point_27_geo645",
+            "@type": "GeoCoordinates",
+            "latitude": "48.72872",
+            "longitude": "-3.95894",
+            "label": "_:point_27_geo645"
+        },
+        {
+            "@id": "_:point_28_geo51",
+            "@type": "GeoCoordinates",
+            "latitude": "48.71751",
+            "longitude": "-3.96649",
+            "label": "_:point_28_geo51"
+        },
+        {
+            "@id": "_:point_29_geo395",
+            "@type": "GeoCoordinates",
+            "latitude": "50.3674",
+            "longitude": "-4.1552",
+            "label": "_:point_29_geo395"
+        },
+        {
+            "@id": "_:point_30_geo373",
+            "@type": "GeoCoordinates",
+            "latitude": "50.3673",
+            "longitude": "-4.1554",
+            "label": "_:point_30_geo373"
+        },
+        {
+            "@id": "_:point_31_geo286",
+            "@type": "GeoCoordinates",
+            "latitude": "50.3668",
+            "longitude": "-4.1561",
+            "label": "_:point_31_geo286"
+        },
+        {
+            "@id": "_:point_32_geo468",
+            "@type": "GeoCoordinates",
+            "latitude": "50.3674",
+            "longitude": "-4.1544",
+            "label": "_:point_32_geo468"
+        },
+        {
+            "@id": "_:point_33_geo170",
+            "@type": "GeoCoordinates",
+            "latitude": "50.350134",
+            "longitude": "-4.159167",
+            "label": "_:point_33_geo170"
+        },
+        {
+            "@id": "_:point_34_geo219",
+            "@type": "GeoCoordinates",
+            "latitude": "35.343153",
+            "longitude": "25.136605",
+            "label": "_:point_34_geo219"
+        },
+        {
+            "@id": "_:point_35_geo810",
+            "@type": "GeoCoordinates",
+            "latitude": "35.34662",
+            "longitude": "25.27876",
+            "label": "_:point_35_geo810"
+        },
+        {
+            "@id": "_:point_36_geo665",
+            "@type": "GeoCoordinates",
+            "latitude": "29.52",
+            "longitude": "34.934444",
+            "label": "_:point_36_geo665"
+        },
+        {
+            "@id": "_:point_37_geo850",
+            "@type": "GeoCoordinates",
+            "latitude": "29.50555",
+            "longitude": "34.920278",
+            "label": "_:point_37_geo850"
+        },
+        {
+            "@id": "_:point_38_geo73",
+            "@type": "GeoCoordinates",
+            "latitude": "67.240217",
+            "longitude": "14.711533",
+            "label": "_:point_38_geo73"
+        },
+        {
+            "@id": "_:point_39_geo686",
+            "@type": "GeoCoordinates",
+            "latitude": "78.21302778",
+            "longitude": "15.23361111",
+            "label": "_:point_39_geo686"
+        },
+        {
+            "@id": "_:point_40_geo187",
+            "@type": "GeoCoordinates",
+            "latitude": "78.18833333",
+            "longitude": "15.14472222",
+            "label": "_:point_40_geo187"
+        },
+        {
+            "@id": "_:point_41_geo299",
+            "@type": "GeoCoordinates",
+            "latitude": "54.48522",
+            "longitude": "18.57111",
+            "label": "_:point_41_geo299"
+        },
+        {
+            "@id": "_:point_42_geo351",
+            "@type": "GeoCoordinates",
+            "latitude": "45.54875",
+            "longitude": "13.5507",
+            "label": "_:point_42_geo351"
+        },
+        {
+            "@id": "_:point_43_geo781",
+            "@type": "GeoCoordinates",
+            "latitude": "45.5188",
+            "longitude": "13.5673",
+            "label": "_:point_43_geo781"
+        },
+        {
+            "@id": "_:point_44_geo308",
+            "@type": "GeoCoordinates",
+            "latitude": "45.564856",
+            "longitude": "13.743586",
+            "label": "_:point_44_geo308"
+        },
+        {
+            "@id": "_:point_45_geo569",
+            "@type": "GeoCoordinates",
+            "latitude": "58.875155",
+            "longitude": "11.103194",
+            "label": "_:point_45_geo569"
+        },
+        {
+            "@id": "_:point_46_geo726",
+            "@type": "GeoCoordinates",
+            "latitude": "58.87633",
+            "longitude": "11.111884",
+            "label": "_:point_46_geo726"
+        },
+        {
+            "@id": "_:point_47_geo68",
+            "@type": "GeoCoordinates",
+            "latitude": "58.859877",
+            "longitude": "11.080491",
+            "label": "_:point_47_geo68"
         }
     ]
 }
