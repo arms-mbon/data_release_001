@@ -17,46 +17,55 @@
             "label": "./",
             "hasPart": [
                 {
-                    "@id": "./demultiplexing_details_OmicsData_release001.csv"
-                },
-                {
-                    "@id": "./ImageData_release001.csv"
-                },
-                {
-                    "@id": "./OmicsData_release001.csv"
-                },
-                {
-                    "@id": "./SamplingEventMetadata_release001.csv"
-                },
-                {
-                    "@id": "./ObservatoryData_release001.csv"
-                },
-                {
                     "@id": "./ImageMetadata_release001.csv"
                 },
                 {
-                    "@id": "./config.yml"
-                },
-                {
-                    "@id": "./ObservatoryMetadata_release001.csv"
-                },
-                {
-                    "@id": "./SamplingEventData_release001.csv"
+                    "@id": "./ARMS_ITS_Occurrence.csv"
                 },
                 {
                     "@id": "./OmicsMetadata_release001.csv"
                 },
                 {
-                    "@id": "./ARMS_COI_DNAextension.csv"
+                    "@id": "./SamplingEventData_release001.csv"
+                },
+                {
+                    "@id": "./config.yml"
                 },
                 {
                     "@id": "./ARMS_COI_EMOF.csv"
                 },
                 {
+                    "@id": "./ARMS_COI_DNAextension.csv"
+                },
+                {
+                    "@id": "./ObservatoryData_release001.csv"
+                },
+                {
+                    "@id": "./ARMS_ITS_DNAextension.csv"
+                },
+                {
+                    "@id": "./ImageData_release001.csv"
+                },
+                {
+                    "@id": "./ObservatoryMetadata_release001.csv"
+                },
+                {
+                    "@id": "./SamplingEventMetadata_release001.csv"
+                },
+                {
+                    "@id": "./OmicsData_release001.csv"
+                },
+                {
                     "@id": "./ARMS_COI_Occurrence.csv"
                 },
                 {
+                    "@id": "./ARMS_ITS_EMOF.csv"
+                },
+                {
                     "@id": "./LICENSE"
+                },
+                {
+                    "@id": "./demultiplexing_details_OmicsData_release001.csv"
                 }
             ],
             "wasAssociatedWith": [
@@ -302,73 +311,6 @@
             "label": "_:AssemblePlus"
         },
         {
-            "@id": "_:point_1",
-            "@type": "Place",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "51.64971",
-                "longitude": "2.789374"
-            },
-            "geoCoveredBy": "http://marineregions.org/mrgid/26567",
-            "label": "_:point_1"
-        },
-        {
-            "@id": "./demultiplexing_details_OmicsData_release001.csv",
-            "@type": "File",
-            "label": "./demultiplexing_details_OmicsData_release001.csv",
-            "fileFormat": "csv",
-            "description": "File containing some details of the demultiplexing of the sequences by PEMA",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./demultiplexing_details_OmicsData_release001.csv"
-        },
-        {
-            "@id": "./ImageData_release001.csv",
-            "@type": "File",
-            "label": "./ImageData_release001.csv",
-            "fileFormat": "csv",
-            "wasDerivedFrom": [
-                "https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ImageData.csv"
-            ],
-            "description": "Contains the links to all images and spreadsheets associated with the sampling events in this dataset",
-            "dct:relation": "./ImageMetadata_release001.csv",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ImageData_release001.csv"
-        },
-        {
-            "@id": "./OmicsData_release001.csv",
-            "@type": "File",
-            "label": "./OmicsData_release001.csv",
-            "fileFormat": "csv",
-            "wasDerivedFrom": [
-                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_OmicsData.csv"
-            ],
-            "description": "Contains the Genomics data associated with the sampling events in this dataset",
-            "dct:relation": "./OmicsMetadata_release001.csv",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./OmicsData_release001.csv"
-        },
-        {
-            "@id": "./SamplingEventMetadata_release001.csv",
-            "@type": "File",
-            "label": "./SamplingEventMetadata_release001.csv",
-            "fileFormat": "csv",
-            "wasDerivedFrom": [
-                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_SamplingEventMetadata.csv"
-            ],
-            "description": "Metadata describing the columns of SamplingEventData_release001",
-            "dct:relation": "./SamplingEventData_release001.csv",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./SamplingEventMetadata_release001.csv"
-        },
-        {
-            "@id": "./ObservatoryData_release001.csv",
-            "@type": "File",
-            "label": "./ObservatoryData_release001.csv",
-            "fileFormat": "csv",
-            "wasDerivedFrom": [
-                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryData.csv"
-            ],
-            "description": "Contains the Observatory data associated with the sampling events in this dataset",
-            "dct:relation": "./ObservatoryMetadata_release001.csv",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ObservatoryData_release001.csv"
-        },
-        {
             "@id": "./ImageMetadata_release001.csv",
             "@type": "File",
             "label": "./ImageMetadata_release001.csv",
@@ -381,33 +323,16 @@
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ImageMetadata_release001.csv"
         },
         {
-            "@id": "./config.yml",
+            "@id": "./ARMS_ITS_Occurrence.csv",
             "@type": "File",
-            "label": "./config.yml"
-        },
-        {
-            "@id": "./ObservatoryMetadata_release001.csv",
-            "@type": "File",
-            "label": "./ObservatoryMetadata_release001.csv",
+            "label": "./ARMS_ITS_Occurrence.csv",
             "fileFormat": "csv",
             "wasDerivedFrom": [
-                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryMetadata.csv"
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
             ],
-            "description": "Metadata describing the columns of ObservatoryData_release001",
-            "dct:relation": "./ObservatoryData_release001.csv",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ObservatoryMetadata_release001.csv"
-        },
-        {
-            "@id": "./SamplingEventData_release001.csv",
-            "@type": "File",
-            "label": "./SamplingEventData_release001.csv",
-            "fileFormat": "csv",
-            "wasDerivedFrom": [
-                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_SamplingEventData.csv"
-            ],
-            "description": "Contains the Sampling event data associated with the sampling events in this dataset",
-            "dct:relation": "./SamplingEventMetadata_release001.csv",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./SamplingEventData_release001.csv"
+            "description": "The Occurrence extension for the ITS data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_Occurrence.csv"
         },
         {
             "@id": "./OmicsMetadata_release001.csv",
@@ -422,16 +347,21 @@
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./OmicsMetadata_release001.csv"
         },
         {
-            "@id": "./ARMS_COI_DNAextension.csv",
+            "@id": "./SamplingEventData_release001.csv",
             "@type": "File",
-            "label": "./ARMS_COI_DNAextension.csv",
+            "label": "./SamplingEventData_release001.csv",
             "fileFormat": "csv",
             "wasDerivedFrom": [
-                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
-                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_SamplingEventData.csv"
             ],
-            "description": "The DNA extension for the COI data",
-            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_DNAextension.csv"
+            "description": "Contains the Sampling event data associated with the sampling events in this dataset",
+            "dct:relation": "./SamplingEventMetadata_release001.csv",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./SamplingEventData_release001.csv"
+        },
+        {
+            "@id": "./config.yml",
+            "@type": "File",
+            "label": "./config.yml"
         },
         {
             "@id": "./ARMS_COI_EMOF.csv",
@@ -446,6 +376,90 @@
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_EMOF.csv"
         },
         {
+            "@id": "./ARMS_COI_DNAextension.csv",
+            "@type": "File",
+            "label": "./ARMS_COI_DNAextension.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The DNA extension for the COI data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_DNAextension.csv"
+        },
+        {
+            "@id": "./ObservatoryData_release001.csv",
+            "@type": "File",
+            "label": "./ObservatoryData_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryData.csv"
+            ],
+            "description": "Contains the Observatory data associated with the sampling events in this dataset",
+            "dct:relation": "./ObservatoryMetadata_release001.csv",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ObservatoryData_release001.csv"
+        },
+        {
+            "@id": "./ARMS_ITS_DNAextension.csv",
+            "@type": "File",
+            "label": "./ARMS_ITS_DNAextension.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The DNA extension for the ITS data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_DNAextension.csv"
+        },
+        {
+            "@id": "./ImageData_release001.csv",
+            "@type": "File",
+            "label": "./ImageData_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ImageData.csv"
+            ],
+            "description": "Contains the links to all images and spreadsheets associated with the sampling events in this dataset",
+            "dct:relation": "./ImageMetadata_release001.csv",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ImageData_release001.csv"
+        },
+        {
+            "@id": "./ObservatoryMetadata_release001.csv",
+            "@type": "File",
+            "label": "./ObservatoryMetadata_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryMetadata.csv"
+            ],
+            "description": "Metadata describing the columns of ObservatoryData_release001",
+            "dct:relation": "./ObservatoryData_release001.csv",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ObservatoryMetadata_release001.csv"
+        },
+        {
+            "@id": "./SamplingEventMetadata_release001.csv",
+            "@type": "File",
+            "label": "./SamplingEventMetadata_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_SamplingEventMetadata.csv"
+            ],
+            "description": "Metadata describing the columns of SamplingEventData_release001",
+            "dct:relation": "./SamplingEventData_release001.csv",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./SamplingEventMetadata_release001.csv"
+        },
+        {
+            "@id": "./OmicsData_release001.csv",
+            "@type": "File",
+            "label": "./OmicsData_release001.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_OmicsData.csv"
+            ],
+            "description": "Contains the Genomics data associated with the sampling events in this dataset",
+            "dct:relation": "./OmicsMetadata_release001.csv",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./OmicsData_release001.csv"
+        },
+        {
             "@id": "./ARMS_COI_Occurrence.csv",
             "@type": "File",
             "label": "./ARMS_COI_Occurrence.csv",
@@ -458,9 +472,29 @@
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_Occurrence.csv"
         },
         {
+            "@id": "./ARMS_ITS_EMOF.csv",
+            "@type": "File",
+            "label": "./ARMS_ITS_EMOF.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The EMOF for the ITS data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_EMOF.csv"
+        },
+        {
             "@id": "./LICENSE",
             "@type": "File",
             "label": "./LICENSE"
+        },
+        {
+            "@id": "./demultiplexing_details_OmicsData_release001.csv",
+            "@type": "File",
+            "label": "./demultiplexing_details_OmicsData_release001.csv",
+            "fileFormat": "csv",
+            "description": "File containing some details of the demultiplexing of the sequences by PEMA",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./demultiplexing_details_OmicsData_release001.csv"
         }
     ]
 }
