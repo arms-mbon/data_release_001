@@ -311,17 +311,6 @@
             "label": "_:AssemblePlus"
         },
         {
-            "@id": "_:point_1",
-            "@type": "Place",
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "51.64971",
-                "longitude": "2.789374"
-            },
-            "geoCoveredBy": "http://marineregions.org/mrgid/26567",
-            "label": "_:point_1"
-        },
-        {
             "@id": "./ImageMetadata_release001.csv",
             "@type": "File",
             "label": "./ImageMetadata_release001.csv",
