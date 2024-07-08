@@ -212,12 +212,6 @@
         },
         "geoCoveredBy": "http://marineregions.org/mrgid/26567"
     },
-    "_:geo_1": {
-        "label": "geo1",
-        "@type": "GeoCoordinates",
-        "latitude": "51.64971",
-        "longitude": "2.789374"
-    },
     "_:point_2": {
         "@type": "Place",
         "geo": {
@@ -866,7 +860,9 @@
         "identifier": "https://cordis.europa.eu/project/id/730984"
     },
     "_:point_1_geo1": {
-        "@id": "_:geo_1",
+        "@type": "GeoCoordinates",
+        "latitude": "51.64971",
+        "longitude": "2.789374"
         "label": "_:point_1_geo1"
     },
     "_:point_2_geo353": {
