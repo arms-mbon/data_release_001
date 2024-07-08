@@ -212,7 +212,7 @@
         },
         "geoCoveredBy": "http://marineregions.org/mrgid/26567"
     },
-    "_geo_1": {
+    "_:geo_1": {
         "label": "geo1",
         "@type": "GeoCoordinates",
         "latitude": "51.64971",
