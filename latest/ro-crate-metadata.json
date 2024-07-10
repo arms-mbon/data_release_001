@@ -23,6 +23,15 @@
                     "@id": "./ARMS_ITS_Occurrence.csv"
                 },
                 {
+                    "@id": "./ARMS_18S_DNAextension.csv"
+                },
+                {
+                    "@id": "./ARMS_18S_EMOF.csv"
+                },
+                {
+                    "@id": "./ARMS_18S_Occurrence.csv"
+                },
+                {
                     "@id": "./OmicsMetadata_release001.csv"
                 },
                 {
@@ -333,6 +342,42 @@
             ],
             "description": "The Occurrence extension for the ITS data",
             "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_Occurrence.csv"
+        },
+        {
+            "@id": "./ARMS_18S_DNAextension.csv",
+            "@type": "File",
+            "label": "./ARMS_18S_DNAextension.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The DNA extension for the 18S data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_18S_DNAextension.csv"
+        },
+        {
+            "@id": "./ARMS_18S_EMOF.csv",
+            "@type": "File",
+            "label": "./ARMS_18S_EMOF.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The EMOF for the 18S data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_18S_EMOF.csv"
+        },
+        {
+            "@id": "./ARMS_18S_Occurrence.csv",
+            "@type": "File",
+            "label": "./ARMS_18S_Occurrence.csv",
+            "fileFormat": "csv",
+            "wasDerivedFrom": [
+                "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
+                "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
+            ],
+            "description": "The Occurrence extension for the 18S data",
+            "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_18S_Occurrence.csv"
         },
         {
             "@id": "./OmicsMetadata_release001.csv",
