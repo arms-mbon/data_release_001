@@ -9,14 +9,20 @@ The source files for the omics and taxonomic data that are included in the EurOB
 
 For more information on ARMS-MBON, see its [data landing page](https://data.arms-mbon.org/) and references there in. 
 
-<!--
-## EurOBIS DwCA files 
-These are the files that are combined into one DarwinCore Archive ZIP
-* The [CSV containing the occurrences](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_Occurrence.csv) 
-* The [CSV containing the DNA data](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_DNAextension.csv) 
-* The [CSV containing the extended measurements or facts](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_EMOF.csv) 
--->
 
+## EurOBIS DwCA files 
+These are the files that are the core of the DwCA
+* The [CSV containing the occurrences for COI](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_Occurrence.csv) 
+* The [CSV containing the DNA data for COI](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_DNAextension.csv) 
+* The [CSV containing the extended measurements or facts for COI (zipped)](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_COI_EMOF.zip) 
+* The [CSV containing the occurrences for 18S](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_18S_Occurrence.csv) 
+* The [CSV containing the DNA data for 18S](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_18S_DNAextension.csv) 
+* The [CSV containing the extended measurements or facts for 18S](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_18S_EMOF.csv) 
+* The [CSV containing the occurrences for ITS](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_ITS_Occurrence.csv) 
+* The [CSV containing the DNA data for ITS](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_ITS_DNAextension.csv) 
+* The [CSV containing the extended measurements or facts for ITS](https://github.com/arms-mbon/data_release_001/blob/main/ARMS_ITS_EMOF.csv)
+
+  
 ## The sampling event data
 These are the files that contain the sampling event data. This is a subset of the entire ARMS-MBON set of [combined event data](https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined), and include: 
 * A CSV data file containing [observatory metadata](https://github.com/arms-mbon/data_release_001/blob/main/OservatoryData_release001.csv), with an accompanying metadata file
