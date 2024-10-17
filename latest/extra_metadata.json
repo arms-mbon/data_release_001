@@ -849,6 +849,13 @@
         "email": "cpavloud@hcmr.gr",
         "identifier": "https://orcid.org/0000-0001-5106-6067"
     },
+    {
+        "@id": "_:VLIZ",
+        "@type": "Organization",
+        "name": "Flanders Marine Institute",
+        "url": "https://www.vliz.be/en",
+        "label": "_:VLIZ"
+    },
     "_:ARMSProject": {
         "@type": "Project",
         "name": "ARMS-MBON",
