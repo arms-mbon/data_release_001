@@ -4,7 +4,7 @@
 **UPDATES** <br>
 These data are now available in the following biodiversity portals: 
 * OBIS dataset [ITS](https://obis.org/dataset/ddab58b2-0072-41b8-afc5-ac10d937247f)
-* OBIS dataset [CO1](https://obis.org/dataset/066f002f-58d5-4687-bdb8-b39cdaef0c2b)
+* OBIS dataset [CO1](https://obis.org/dataset/066f002f-58d5-4687-bdb8-b39cdaef0c2b), and its [metadata record](https://doi.org/10.14284/620)
 * OBIS dataset [18S](https://obis.org/dataset/0ada9b0c-14f5-4247-881e-9f6f62b2c165)
 
 <br>
