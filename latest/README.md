@@ -9,6 +9,7 @@ These data are now available in the following biodiversity portals:
 
 <br>
 These are the first set of data files to be submitted to (Eur)OBIS: taxonomic occurrences from the COI, 18S, and ITS marker gene omics data, sampling event metadata, and image metadata for the events of ARMS-MBON's first sampling campaign (all ARMS deployed in 2018 and 2019 and retrieved between and 2018 and 2020). This includes: 
+
 * The individual files that when combined, create the DwCA files that we submitted: a file of occurrences (taxonomy and event data), the DNA extension information (omics data), the EMOF (extra information that cannot otherwise be added to the other two files).
 * The observatory, sampling event, omics and image data related to the sampling events included in this EurOBIS dataset. These expand somewhat on the information included in the data that will be published in (Eur)OBIS.
 
