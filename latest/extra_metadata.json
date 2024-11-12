@@ -674,7 +674,7 @@
         "label": "Point_998"
     },
     "./ARMS_COI_DNAextension.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -683,12 +683,12 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_DNAextension.csv"
     },
     "./demultiplexing_details_OmicsData_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "description": "File containing some details of the demultiplexing of the sequences by PEMA",
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./demultiplexing_details_OmicsData_release001.csv"
     },
     "./ARMS_COI_Occurrence.zip": {
-        "encoding": "zip",
+        "encodingFormat": "zip",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -697,7 +697,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_Occurrence.csv"
     },
     "./ARMS_COI_EMOF.zip": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -706,7 +706,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_COI_EMOF.csv"
     },
     "./ARMS_18S_DNAextension.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -715,7 +715,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_18S_DNAextension.csv"
     },
     "./ARMS_18S_Occurrence.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -724,7 +724,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_18S_Occurrence.csv"
     },
     "./ARMS_18S_EMOF.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -733,7 +733,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_18S_EMOF.csv"
     },
     "./ARMS_ITS_DNAextension.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -742,7 +742,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_DNAextension.csv"
     },
     "./ARMS_ITS_Occurrence.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -751,7 +751,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_Occurrence.csv"
     },
     "./ARMS_ITS_EMOF.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined",
             "https://github.com/arms-mbon/data_workspace/tree/main/analysis_data/from_pema/processing_batch1"
@@ -760,7 +760,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ARMS_ITS_EMOF.csv"
     },
     "./ImageData_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ImageData.csv"
         ],
@@ -769,7 +769,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ImageData_release001.csv"
     },
     "./ImageMetadata_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             "https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ImageMetadata.csv"
         ],
@@ -778,7 +778,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ImageMetadata_release001.csv"
     },
     "./ObservatoryData_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryData.csv"
         ],
@@ -787,7 +787,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ObservatoryData_release001.csv"
     },
     "./ObservatoryMetadata_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_ObservatoryMetadata.csv"
         ],
@@ -796,7 +796,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./ObservatoryMetadata_release001.csv"
     },
     "./OmicsData_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_OmicsData.csv"
         ],
@@ -805,7 +805,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./OmicsData_release001.csv"
     },
     "./OmicsMetadata_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_OmicsMetadata.csv"
         ],
@@ -814,7 +814,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./OmicsMetadata_release001.csv"
     },
     "./SamplingEventData_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_SamplingEventData.csv"
         ],
@@ -823,7 +823,7 @@
         "downloadURL": "https://data.arms-mbon.org/data_release_001/latest/#./SamplingEventData_release001.csv"
     },
     "./SamplingEventMetadata_release001.csv": {
-        "encoding": "text/csv",
+        "encodingFormat": "text/csv",
         "wasDerivedFrom": [
             " https://github.com/arms-mbon/data_workspace/blob/main/qualitycontrolled_data/combined/combined_SamplingEventMetadata.csv"
         ],
