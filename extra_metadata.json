@@ -868,7 +868,7 @@
     "_:point_1_geo1": {
         "@type": "GeoCoordinates",
         "latitude": "51.64971",
-        "longitude": "2.789374"
+        "longitude": "2.789374",
         "label": "_:point_1_geo1"
     },
     "_:point_2_geo353": {
