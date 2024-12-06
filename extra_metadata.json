@@ -1,4 +1,4 @@
-[{
+{
     "./": {
         "wasAssociatedWith": [
             {
@@ -1153,40 +1153,4 @@
         "longitude": "11.080491",
         "label": "_:point_47_geo68"
     }
-},
-{
-        "@id":"http://semanticscience.org/resource/SIO_001050",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "sample"
-    },
-    {
-        "@id":"http://purl.obolibrary.org/obo/ExO_0000067",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "measurement"
-    },
-    {
-        "@id":"https://vocabularyserver.com/asfa/?tema=2185",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "Biodiversity"
-    },
-    {
-        "@id":"https://vocabularyserver.com/asfa/?tema=3505",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "Long-term changes"
-    },
-    {
-        "@id":"https://vocabularyserver.com/asfa/?tema=1150",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "Marine environment"
-    },
-    {
-        "@id":"https://vocabularyserver.com/asfa/?tema=2365",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "Genetics"
-    },
-    {
-        "@id":"https://vocabularyserver.com/asfa/?tema=2091",
-        "@type": "skos:Concept",
-        "skos:prefLabel": "Benthic communities"
-    }
-]
+}
