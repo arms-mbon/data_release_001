@@ -33,8 +33,8 @@ These are the files that are the core of the DwCA
   
 ## The sampling event data
 These are the files that contain the sampling event data. This is a subset of the entire ARMS-MBON set of [combined event data](https://github.com/arms-mbon/data_workspace/tree/main/qualitycontrolled_data/combined), and include: 
-* A CSV data file containing [observatory metadata](https://github.com/arms-mbon/data_release_001/blob/main/OservatoryData_release001.csv), with an accompanying metadata file
-* A CSV data file containing [sampling event metadata](https://github.com/arms-mbon/data_release_001/blob/main/SamplingeventData_release001.csv), with an accompanying metadata file
+* A CSV data file containing [observatory metadata](https://github.com/arms-mbon/data_release_001/blob/main/ObservatoryData_release001.csv), with an accompanying metadata file
+* A CSV data file containing [sampling event metadata](https://github.com/arms-mbon/data_release_001/blob/main/SamplingEventData_release001.csv), with an accompanying metadata file
 * A CSV data file containing [raw sequence metadata](https://github.com/arms-mbon/data_release_001/blob/main/OmicsData_release001.csv), with an accompanying metadata file; including the ENA accession numbers and a limited amount of additional omics metadata. For more information on the processing of the samples and subsequence bioinformatics, see the [analysis_release_001](https://github.com/arms-mbon/analysis_release_001) repository.
 * A CSV data file containing [images metadata](https://github.com/arms-mbon/data_release_001/blob/main/ImageData_release001.csv), with an accompanying metadata file (note that there are 1000s of rows in this spreadsheet), with a metadata file that explains the entries therein. Images are currently stored in PlutoF and can be downloaded by accessing the links in the "Download URL" column.
 
