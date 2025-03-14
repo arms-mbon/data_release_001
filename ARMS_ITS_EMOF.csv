@@ -2051,7 +2051,6 @@ ARMS_Svalbard_S2_20180708_20190805_MF100_ETOH_r1:Otu427,NCBIScientificName,,Pich
 ARMS_Svalbard_S2_20180708_20190805_MF100_ETOH_r1:Otu427,NCBITaxonRank,,species,,,
 ARMS_Svalbard_S2_20180708_20190805_MF100_ETOH_r1:Otu427,fieldReplicateID,,no replicate,http://vocab.nerc.ac.uk/collection/P01/current/IDSPRE01,,
 ARMS_Svalbard_S2_20180708_20190805_MF100_ETOH_r1:Otu427,technicalReplicateID,,,http://vocab.nerc.ac.uk/collection/P01/current/IDTCRE01,,
-occurrenceID,measurementType,measurementUnit,measurementValue,measurementTypeID,measurementUnitID,measurementValueID
 ARMS_BelgiumCoast_AZFPin_20180712_20180818_MF500_ETOH_r1:Otu379,submergedTime,day,37,http://vocab.nerc.ac.uk/collection/P01/current/AZDRZZ01/,https://vocab.nerc.ac.uk/collection/P06/current/UTAA/,
 ARMS_BelgiumCoast_AZFPin_20180712_20180818_MF500_ETOH_r1:Otu379,preservativeUsed,,EtOH,http://vocab.nerc.ac.uk/collection/Q01/current/Q0100004/,,https://pubchem.ncbi.nlm.nih.gov/compound/702
 ARMS_BelgiumCoast_AZFPin_20180712_20180818_MF500_ETOH_r1:Otu379,lowerLimitFilterSize,micrometer,500,http://vocab.nerc.ac.uk/collection/Q01/current/Q0100011/,https://vocab.nerc.ac.uk/collection/P06/current/UMIC/,
